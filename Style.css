@@ -512,3 +512,47 @@ input{
     color: rgba(101, 102, 92, 1);
     line-height: 24px;
 }
+.tittle{
+    text-align: center;
+
+}.firstcell{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    border-color: black;
+    background-color: rgb(231, 236, 235);
+}.fbfeature{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}.firstcell i{
+    color: orange;
+}.fb2page{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: lightblue;
+}
+.fbitem img{
+    width: 300px;
+
+}.fbitem{
+    width: 28%;
+}
+.fbcontainer{
+    display: flex;
+    justify-content: space-evenly;
+}.fbfooter{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-evenly;
+}.fbfooter h6{
+    margin: 10px;
+    padding: 0px;
+    font-size: 1.5em ;
+}.fbfooter button{
+    color: white;
+    background-color: red;
+    border-radius: 8px;
+    padding: 5px;
+}
