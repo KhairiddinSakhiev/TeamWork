@@ -122,11 +122,7 @@ color: #65665C;
     grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     margin: 0;
-<<<<<<< Updated upstream
-    gap: 50px;
-=======
-    gap: 60px;
->>>>>>> Stashed changes
+    gap: 20px;
 }
 .leftitem, .rightitem{
     display: grid;
