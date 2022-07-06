@@ -8,8 +8,23 @@
     justify-content: center;
   }
   .AB-underhead{
-    grid-template-columns: 70%;
+    grid-template-columns: 720px;
     grid-template-rows: auto;
+    justify-content: center;
+  }
+  .AB-buttons{
+    display: block;
+    margin-left: 140px;
+  }
+  .AB-find{
+    width: 40%;
+    margin-left: 25px;
+  }
+  .AB-magazines{
+    display: grid;
+    grid-template-columns: 30%;
+    grid-template-rows: auto;
+    justify-content: center;
   }
 }
 
