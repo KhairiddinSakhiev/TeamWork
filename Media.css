@@ -42,6 +42,54 @@
   .how-item{
     width: 70%;
   }
+  .firstlist, .secondlist{
+    grid-template-columns: auto;
+  }
+
+  .photos{
+    grid-template-columns: auto auto;
+  }
+  .bot h3{
+font-size: 10px;
+}
+.bot h4{
+font-size: 6;
+}
+.bot h5{
+font-size: 4;
+}
+}
+
+
+@media (max-width: 1198px){
+  .firstlist, .secondlist{
+    grid-template-columns: auto;
+  }
+  .photos{
+    grid-template-columns: auto auto;
+  }
+
+  .firstlist {
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .secondlist {
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .photos{
+    grid-template-columns: auto auto;
+    justify-content: center;
+    gap: 20px;
+  }
+  .items{
+    grid-template-columns: auto;
+    justify-content: center;
+    gap: 20px;
+  }
+
 }
 
 
@@ -121,4 +169,58 @@ width: 300px;
     .how-item h1{
       font-size: 40px;
     }
+    .photos{
+      grid-template-columns: auto;
+    }
+
+  }
+  @media(max-width:768px){
+    .ms-location-text{
+        width: 768px;
+    }
+    .ms-location-text{
+        width:180px;
+        text-align: center;
+    }
+
+    .ms-continer{
+        width: 230px;
+    }
+}
+
+ @media(max-width:768px) {
+    .ms-button-country{
+        flex-wrap: wrap;
+    }
+    .firstlist {
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 20px;
+    }
+    .secondlist {
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 20px;
+    }
+    .photos{
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 20px;
+    }
+  
+  }
+
+  @media (max-width: 1192px) {   
+  
+    .firstlist {
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 20px;
+    }
+    .secondlist {
+      grid-template-columns: auto;
+      justify-content: center;
+      gap: 20px;
+    }
+
   }
