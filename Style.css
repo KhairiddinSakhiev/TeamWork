@@ -458,7 +458,7 @@ input{
 .AB-howworks-item1{
     grid-area: maintext;
     
-}
+} 
 .AB-howworks-item2{
     grid-area: leftside;
     text-align: center;
