@@ -102,8 +102,7 @@ body{
 }
 .msimage{
     padding-top: 30px;
-    
-=======
+}
 body{
     width: 100%;
     margin: 0;
@@ -298,6 +297,7 @@ margin-top: -20px;
 .leftend a, .rightend a{
     color: black;
     text-decoration: none;
+}
 
 *{
     margin: 0;
