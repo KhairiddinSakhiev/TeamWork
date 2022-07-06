@@ -193,4 +193,216 @@ margin-top: -20px;
     color: black;
     text-decoration: none;
 
+*{
+    margin: 0;
+}
+.AB-nav-top{
+    display: grid;
+    grid-template-columns: 25% 70%;
+    grid-template-rows: 74px;
+   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+   justify-items: center ;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.AB-nav-top1 img{
+    padding-left: 200px;
+    padding-top: 20px;
+}
+.AB-cart{
+   margin-top: 16px;
+margin-left: 24px;
+}
+.AB-cart p{
+    border-radius: 6px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.08);
+    padding: 6px 21px 6px 21px;
+    border: 1px solid rgba(231, 232, 227, 1);
+}
+.AB-cart a:hover{
+    color: rgb(226, 20, 20);
+}
+.AB-cart a{
+    text-decoration: none;
+    color: rgba(42, 44, 31, 1);
+    transition: 0.7s ease;
+}
+.AB-find a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+}
+.AB-find p{
+    padding: 9px 21px 9px 21px;
+    background-color: rgba(207, 111, 73, 1);
+    margin-top: 16px;
+    margin-left: 24px;
+    border: 1px solid #CF6F49;
+    border-radius: 6px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.08);
+    transition: 0.7s ease;
+}
+.AB-find p:hover{
+    color: rgb(34, 27, 27);
+}
+
+.AB-nav-item{
+    list-style-type: none;
+    padding-left: 32px;
+    display: grid;
+   
+}
+.AB-nav-item a{
+    text-decoration: 0;
+    color: rgba(34, 34, 34, 1);
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    transition: 0.7s ease;
+}
+.AB-nav-item a:hover{
+    color: aquamarine;
+}
+.AB-nav-menu{
+    display: flex;
+    justify-content: start;
+    background-color: rgba(255, 255, 255, 1);
+    align-items: center;
+}
+.AB-underhead{
+    display: grid;
+    grid-template-columns: repeat(2, 720px);
+    grid-template-rows: 686px;
+    justify-content: center;
+}
+.AB-underhead-item2 img{
+    width: 100%;
+}
+.AB-underhead-item1{
+    background-color: rgba(245, 245, 242, 1);
+    position: relative;
+}
+.AB-first-ladder{
+    position: absolute;
+    top: 0;
+}
+.AB-second-ladder{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.AB-underhead-item-text{
+    padding-top: 164px;
+    padding-left: 80px;
+    padding-right: 124px;
+}
+.AB-underhead-item-text h1{
+    font-size: 56px;
+    line-height: 67.2px;
+    padding-bottom: 21px;
+    color: rgba(42, 44, 31, 1);
+}
+.AB-underhead-item-text p{
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(101, 102, 92, 1);
+}
+.AB-yourdream p{
+    color: rgba(42, 44, 31, 1);
+    font-size: 14px;
+    background-color: rgba(231, 232, 227, 1);
+    width: 162px;
+    padding: 4px 12px 4px 12px;
+    border-radius: 32px; 
+}
+input{
+    background-image: url(./images/search.png);
+    background-repeat: no-repeat;
+    background-position: 0.1em;
+    padding-left: 30px;
+    width: 310px;
+    height: 44px;
+    border-radius: 6px;
+}
+.AB-buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AB-magazines{
+    display: grid;
+    grid-template-columns: 30% 65%;
+    grid-template-rows: 60px;
+    justify-content:end;
+    justify-items: center;
+    padding-top: 67px;
+    padding-bottom: 122px ;
+}
+.AB-magazines-item1{
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(42, 44, 31, 1)  ;
+    font-weight: 500;
+}
+.AB-howitworks{
+    display: grid;
+    grid-template-columns: repeat(3, 405px);
+    grid-template-rows: 130px 291px;
+    grid-template-areas: 
+    'maintext maintext maintext'
+    'leftside cside rightside';
+    justify-content: center;
+    gap: 40px 61px;
+    padding-bottom: 128px;
+}
+.AB-howworks-item1{
+    grid-area: maintext;
+    
+}
+.AB-howworks-item2{
+    grid-area: leftside;
+    text-align: center;
+    padding: 49px 33px 47px 34px;
+    border: 1px solid rgba(231, 232, 227, 1);
+    border-radius: 16px;
+}
+.AB-howworks-item3{
+    grid-area: cside;
+    text-align: center;
+    padding: 49px 33px 47px 34px;
+    border: 1px solid rgba(231, 232, 227, 1);
+    border-radius: 16px;
+}
+.AB-howworks-item4{
+    grid-area: rightside;
+    text-align: center;
+    padding: 49px 33px 47px 34px;
+    border: 1px solid rgba(231, 232, 227, 1);
+    border-radius: 16px;
+}
+
+.AB-howworks-item1 h1{
+    font-size: 48px;
+    padding-bottom: 21px;
+    line-height: 27px;
+    text-align: center;
+}
+.AB-howworks-item1 p{
+    font-size: 18px;
+    text-align: center;
+    list-style: 27px;
+    color: rgba(101, 102, 92, 1);
+}
+.AB-workh3{
+    padding-top: 24px;
+    padding-bottom: 17px;
+    font-size: 24px;
+}
+.AB-workp{
+    font-size: 16px;
+    color: rgba(101, 102, 92, 1);
+    line-height: 24px;
 }
